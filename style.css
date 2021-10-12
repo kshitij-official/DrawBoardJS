@@ -1,0 +1,36 @@
+html, body{
+    margin: 0;
+    width: 100%;
+    background-color: rgb(0, 0, 54);
+    
+}
+
+.Header{
+    background-color: rgb(255, 238, 0);
+    width: 25vh;
+    height: 70px;
+    border-radius: 20px;
+    margin: 35px auto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    font-weight: 900;
+    color: rgb(0, 0, 54);
+   
+
+}
+
+.canvas{
+    height: 75vh;
+    width: 75vh;
+    background-color: white;
+    border-radius: 50px;
+    margin: auto;
+    
+}
+.drawArea{
+    display: flex;
+   
+}
