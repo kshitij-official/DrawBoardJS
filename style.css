@@ -22,9 +22,8 @@ html, body{
 
 }
 
-.canvas{
-    height: 75vh;
-    width: 75vh;
+.drawHere{
+    
     background-color: white;
     border-radius: 50px;
     margin: auto;
