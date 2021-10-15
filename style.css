@@ -1,11 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 html, body{
     margin: 0;
     width: 100%;
     background-color: rgb(0, 0, 54);
-    
+    display: block;
 }
 
 .Header{
+    
     background-color: rgb(255, 238, 0);
     width: 25vh;
     height: 70px;
@@ -14,7 +17,7 @@ html, body{
     align-items: center;
     justify-content: center;
     display: flex;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Poppins', sans-serif;
     font-size: 25px;
     font-weight: 900;
     color: rgb(0, 0, 54);
@@ -23,13 +26,50 @@ html, body{
 }
 
 .drawHere{
-    
+    display: flex;
     background-color: white;
     border-radius: 50px;
     margin: auto;
+    overflow: hidden;
     
 }
 .drawArea{
+    margin: 20px;
     display: flex;
    
+}
+
+.gridBox{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 700px;
+    grid-gap: 30px;
+    margin: auto;
+}
+
+button{
+    border: none;
+    padding: 20px;
+    width: 100%;
+}
+
+.Red, .Blue, .Green{
+    color: white;
+    margin: auto;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+.Red{
+    background-color: red;
+    
+}
+.Blue{
+    background-color: Blue;
+    
+}
+.Green{
+    background-color: green;
+    
 }
